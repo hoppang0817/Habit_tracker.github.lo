@@ -75,6 +75,9 @@
 
 import React, { Component } from 'react';
 import './app.css';
+import Button1 from './components/button1';
+import button1 from './components/button1';
+import Button2 from './components/button2';
 import Habits from './components/habits';
 import Header from './components/header';
 
@@ -177,6 +180,8 @@ class App extends Component {
           handleReset={this.handleReset}
           onAdd={this.handelAdd}
         />
+        {/* <Button1 />
+        <Button2/> */}
       </div>
     );
   }
